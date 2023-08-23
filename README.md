@@ -22,7 +22,7 @@ A Discord bot that messages a channel when new evidence is found in a Cosmos con
 ```
 cosmos-discord-snitch$ python -m venv .env
 cosmos-discord-snitch$ source .env/bin/activate
-cosmos-discord-snitch$ pip install -r requirements.txt
+cosmos-discord-snitch$ python -m pip install -r requirements.txt
 ```
 
 2. Create a Discord bot
