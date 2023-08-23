@@ -1,0 +1,13 @@
+[Unit]
+Description="Cosmos Discord Snitch"
+
+[Service]
+User={USER}
+Environment="PATH=$PATH:{USER_HOME}/go/bin"
+WorkingDirectory={USER_HOME}/cosmos-discord-snitch
+ExecStart={USER_HOME}/cosmos-discord-snitch/.env/bin/python cosmos_discord_snitch.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

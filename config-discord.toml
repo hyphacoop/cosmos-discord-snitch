@@ -1,0 +1,6 @@
+# The evidence will be checked every <check_interval> seconds.
+# To get the channel ID, turn on Developer mode in Discord and right-click the channel.
+
+check_interval=3600
+bot_token=""
+channel_id=
