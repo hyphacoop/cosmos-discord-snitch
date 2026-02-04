@@ -9,7 +9,7 @@ discord.py==2.3.2
 frozenlist==1.4.0
 idna==3.7
 multidict==6.0.4
-requests==2.31.0
+requests==2.32.4
 toml==0.10.2
 urllib3==2.6.3
 yarl==1.17.0
